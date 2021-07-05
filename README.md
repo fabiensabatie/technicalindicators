@@ -233,7 +233,7 @@ SMA.calculate({period : period, values : prices})
 var sma = new SMA({period : period, values : []});
 var results = [];
 prices.forEach(price => {
-  var result = sma.nextValue(price);
+  var result = sma.nextValue = (price) => ;
   if(result)
     results.push(result)
 });
